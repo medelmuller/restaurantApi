@@ -3,10 +3,10 @@ package pl.micede.restaurantapi.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import org.springframework.web.bind.annotation.InitBinder;
 
 @Entity
 @Data
+@jakarta.persistence.Table(name = "TABLES")
 public class Table {
 
     @Id
@@ -15,9 +15,9 @@ public class Table {
 
     private Integer numberOfSeats;
 
-    private Integer x;
+    private Float x;
 
-    private Integer y;
+    private Float y;
 
     private boolean available;
 

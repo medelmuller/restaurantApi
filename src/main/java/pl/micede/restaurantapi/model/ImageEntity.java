@@ -1,8 +1,12 @@
 package pl.micede.restaurantapi.model;
 
 import jakarta.persistence.*;
+import jakarta.persistence.Table;
+import lombok.Data;
 
 @Entity
+@Data
+@Table(name = "IMAGE_ENTITY")
 public class ImageEntity {
 
     @Id

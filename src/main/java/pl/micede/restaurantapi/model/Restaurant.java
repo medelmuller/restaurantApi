@@ -1,16 +1,15 @@
 package pl.micede.restaurantapi.model;
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
-import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 import jakarta.persistence.*;
 import lombok.Data;
 
-import java.sql.Timestamp;
 import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.List;
 @Entity
 @Data
+@jakarta.persistence.Table(name = "restaurant")
 public class Restaurant {
 
     @Id

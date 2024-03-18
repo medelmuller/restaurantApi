@@ -18,11 +18,11 @@ databaseChangeLog:
             splitStatements: true
             stripComments: true
   - changeSet:
-      id: 03_create_table_image
+      id: 03_create_table_image_entity
       author: postgres
       changes:
         - sqlFile:
-            path: scripts/03_create_table_image.sql
+            path: scripts/03_create_table_image_entity.sql
             relativeToChangelogFile: true
             splitStatements: true
             stripComments: true

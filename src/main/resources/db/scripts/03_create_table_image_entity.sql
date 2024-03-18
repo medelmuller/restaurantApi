@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS image
+CREATE TABLE IF NOT EXISTS image_entity
 (
     id              BIGINT AUTO_INCREMENT PRIMARY KEY,
     image           IMAGE,
